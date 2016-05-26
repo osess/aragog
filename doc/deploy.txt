@@ -1,0 +1,10 @@
+
+# scrapy
+scrapyd
+scrapy deploy default -p default
+
+# celery
+python manage.py celeryd -l info -B --settings=aragog.settings
+
+# django
+./server.sh

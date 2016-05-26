@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>city list</title>
+</head>
+<body>
+
+<div id='id-wuba'>
+	<ul>
+		{% for city in cities %}
+		{% if city.wuba_url %}
+		<li>
+			<a href="{{city.wuba_url}}" data-factor='{{ city.factor }}' >{{city.name}}</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+	</ul>
+</div>
+
+
+<div id='id-baixing'>
+	<ul>
+		{% for city in cities %}
+		{% if city.baixing_url %}
+		<li>
+			<a href="{{city.baixing_url}}" data-factor='{{ city.factor }}' >{{city.name}}</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+	</ul>
+</div>
+
+<div id='id-dianping'>
+	<ul>
+		{% for city in cities %}
+		{% if city.dianping_url %}
+		<li>
+			<a href="{{city.dianping_url}}" data-factor='{{ city.factor }}' >{{city.name}}</a>
+		</li>
+		{% endif %}
+		{% endfor %}
+	</ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+# require
+
+django==1.7
+scrapy==0.24
+
+django-mptt==0.6.1
+unicode-slugify-0.1.1
+django-categories==1.2.3 # 已下载 无需安装
+
+
+dds
+scrapyd
+
+scrapyd-api 

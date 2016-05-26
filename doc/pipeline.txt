@@ -1,0 +1,3 @@
+# pipeline 顺序
+
+见scrapy settings 文件

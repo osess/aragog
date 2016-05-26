@@ -1,0 +1,1 @@
+from dynamic_scraper.spiders.django_checker import DjangoChecker
